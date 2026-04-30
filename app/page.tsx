@@ -39,7 +39,7 @@ export default function Home() {
       <section className="relative h-[85vh] min-h-[600px] flex items-end">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=1800&q=85"
+            src="https://images.pexels.com/photos/5960378/pexels-photo-5960378.jpeg?auto=compress&cs=tinysrgb&w=1800"
             alt="Compassionate hospice care"
             fill
             sizes="100vw"
