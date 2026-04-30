@@ -39,11 +39,11 @@ export default function Home() {
       <section className="relative h-[85vh] min-h-[600px] flex items-end">
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/5960378/pexels-photo-5960378.jpeg?auto=compress&cs=tinysrgb&w=1800"
-            alt="Compassionate hospice care"
+            src="https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=1800&q=85"
+            alt="Peaceful park path in South Carolina"
             fill
             sizes="100vw"
-            className="object-cover object-top"
+            className="object-cover object-center"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
