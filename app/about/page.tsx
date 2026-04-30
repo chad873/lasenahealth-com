@@ -19,9 +19,6 @@ export default function Page() {
 
         <div className="bg-[#7A8066] text-white rounded p-8">
           <h2 className="font-serif text-2xl font-bold mb-3" style={{ color: "white" }}>Service Areas</h2>
-          <div className="bg-yellow-100 text-yellow-900 text-sm rounded p-3 mb-4">
-
-          </div>
           <p className="text-stone-200">Lasena Health proudly serves patients and families throughout the Columbia, South Carolina area, including Richland, Lexington, Fairfield, Kershaw, Calhoun, Orangeburg, and Newberry counties. Call us to find out if we serve your area.</p>
         </div>
 
