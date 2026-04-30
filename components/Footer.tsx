@@ -6,7 +6,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 pb-12 border-b border-gray-800">
         <div className="md:col-span-1">
           <img src="/lasena_white.png" alt="Lasena Health" className="h-10 w-auto mb-3" />
-          <p className="text-sm leading-relaxed mb-4">Compassionate hospice care for patients, families, and the communities we serve.</p>
+          <p className="text-sm leading-relaxed mb-2">Compassionate hospice care for patients, families, and the communities we serve.</p>
+          <p className="text-xs text-gray-500">Serving Columbia, SC and Richland, Lexington, Fairfield, Kershaw, Calhoun, Orangeburg, and Newberry counties.</p>
           <a href="tel:+18005551234" className="text-[#A67C52] font-semibold text-sm hover:underline">📞 (800) 555-1234</a>
           <p className="text-xs text-gray-500 mt-1">Available 24 hours a day, 7 days a week</p>
         </div>
