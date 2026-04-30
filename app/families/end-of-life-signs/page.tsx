@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const signs = [
   "Sleeping more, or being difficult to rouse",
-  "Eating and drinking less — or stopping entirely",
+  "Eating and drinking less, or stopping entirely",
   "Withdrawal from conversation or the people around them",
   "Increased periods of confusion or restlessness",
-  "Changes in breathing — slower, faster, or with longer pauses (Cheyne-Stokes breathing)",
+  "Changes in breathing, slower, faster, or with longer pauses (Cheyne-Stokes breathing)",
   "Mottled skin on the hands, feet, and legs",
   "Hands and feet feeling cool to the touch",
   "A long pause in breathing, followed by very slow, shallow breaths",
@@ -18,7 +18,7 @@ export default function Page() {
         <div className="max-w-4xl mx-auto">
           <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Families & Caregivers</p>
           <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">End-of-Life Signs</h1>
-          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">As a loved one approaches the end of life, you may notice changes in their body, breathing, and behavior. These signs are normal — they are signs that the body is gently preparing.</p>
+          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">As a loved one approaches the end of life, you may notice changes in their body, breathing, and behavior. These signs are normal, they are signs that the body is gently preparing.</p>
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-10">

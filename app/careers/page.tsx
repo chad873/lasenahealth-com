@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 const reasons = [
-  "You know your patients and their families — not just their chart",
+  "You know your patients and their families, not just their chart",
   "Your colleagues know your name and what you're dealing with on any given day",
-  "Leadership is accessible — we're building something together",
+  "Leadership is accessible, we're building something together",
   "Your clinical judgment is trusted and valued",
 ];
 
 const roles = [
-  "Registered Nurse (RN) — Case Manager",
+  "Registered Nurse (RN), Case Manager",
   "Hospice Aide / Certified Nursing Assistant (CNA)",
   "Medical Social Worker (MSW)",
   "Chaplain / Spiritual Care Coordinator",
@@ -29,7 +29,7 @@ export default function Page() {
 
         <div>
           <h2 className="font-serif text-2xl font-bold text-gray-800 mb-4">Why Work at Lasena Health</h2>
-          <p className="text-gray-700 leading-relaxed mb-6">At Lasena Health, you'll spend your days doing what most healthcare workers get into the field to do — actually caring for people. Not rushing through a 10-minute appointment. Not managing a 40-patient floor. Being present with a person and their family during one of the most meaningful times of their lives.</p>
+          <p className="text-gray-700 leading-relaxed mb-6">At Lasena Health, you'll spend your days doing what most healthcare workers get into the field to do, actually caring for people. Not rushing through a 10-minute appointment. Not managing a 40-patient floor. Being present with a person and their family during one of the most meaningful times of their lives.</p>
           <p className="text-gray-700 leading-relaxed mb-6">We are a smaller, community-focused operation. That means:</p>
           <ul className="space-y-3 mb-6">
             {reasons.map((r) => (
@@ -39,7 +39,7 @@ export default function Page() {
               </li>
             ))}
           </ul>
-          <p className="text-gray-700 leading-relaxed">If you're a nurse, social worker, aide, chaplain, or bereavement counselor who believes that end-of-life care is a calling — not just a job — we'd like to hear from you.</p>
+          <p className="text-gray-700 leading-relaxed">If you're a nurse, social worker, aide, chaplain, or bereavement counselor who believes that end-of-life care is a calling, not just a job, we'd like to hear from you.</p>
         </div>
 
         <div className="border-t border-gray-200 pt-10">

@@ -18,7 +18,7 @@ export default function Page() {
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-10">
-        <p className="text-gray-700 leading-relaxed text-lg">Grief shifts, evolves, and surprises you. Lasena Health provides bereavement support to families for up to 13 months following a loss — because we know that's when the real weight of grief often sets in.</p>
+        <p className="text-gray-700 leading-relaxed text-lg">Grief shifts, evolves, and surprises you. Lasena Health provides bereavement support to families for up to 13 months following a loss, because we know that's when the real weight of grief often sets in.</p>
 
         <div>
           <h2 className="font-serif text-2xl font-bold text-gray-800 mb-4">What our bereavement team offers</h2>
@@ -34,7 +34,7 @@ export default function Page() {
 
         <div className="bg-[#7A8066] text-white rounded p-8">
           <h2 className="font-serif text-xl font-bold mb-3" style={{ color: "white" }}>We'll reach out to you.</h2>
-          <p className="text-stone-200 leading-relaxed">You don't have to reach out to us — we'll reach out to you. Grief is not a crisis to be solved. It's a natural response to love and loss, and you deserve support through it.</p>
+          <p className="text-stone-200 leading-relaxed">You don't have to reach out to us, we'll reach out to you. Grief is not a crisis to be solved. It's a natural response to love and loss, and you deserve support through it.</p>
         </div>
 
         <div className="pt-4 border-t border-gray-100">

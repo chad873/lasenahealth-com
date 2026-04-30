@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const criteria = [
   "Two physicians certify a prognosis of six months or less if the illness runs its normal course (the patient's attending physician and the hospice medical director)",
-  "The patient has a terminal diagnosis — including cancer, heart failure, COPD, dementia, renal failure, liver disease, ALS, stroke, and others",
+  "The patient has a terminal diagnosis, including cancer, heart failure, COPD, dementia, renal failure, liver disease, ALS, stroke, and others",
   "The patient elects comfort-focused care and agrees to forgo curative treatment for the terminal diagnosis",
 ];
 
@@ -38,7 +38,7 @@ export default function Page() {
 
         <div className="bg-gray-900 text-white rounded p-8">
           <h2 className="font-serif text-xl font-bold mb-3" style={{ color: "white" }}>Questions about a specific patient?</h2>
-          <p className="text-gray-300 mb-4">Call our referral line — we'll help you assess eligibility at no obligation.</p>
+          <p className="text-gray-300 mb-4">Call our referral line, we'll help you assess eligibility at no obligation.</p>
           <a href="tel:+18005551234" className="inline-block bg-[#7A8066] text-white px-5 py-2 text-sm font-semibold rounded hover:bg-[#5e6350] transition-colors">📞 (800) 555-1234</a>
         </div>
 

@@ -7,7 +7,7 @@ export default function Page() {
         <div className="max-w-4xl mx-auto">
           <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Contact</p>
           <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Get in Touch</h1>
-          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">We know that reaching out about hospice isn't easy. There's no pressure and no obligation — just a real conversation with a compassionate person who wants to help.</p>
+          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">We know that reaching out about hospice isn't easy. There's no pressure and no obligation, just a real conversation with a compassionate person who wants to help.</p>
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-6 py-16">

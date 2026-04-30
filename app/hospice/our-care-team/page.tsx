@@ -3,11 +3,11 @@ import Link from "next/link";
 const team = [
   { role: "Hospice Physician", desc: "Oversees the patient's medical care, certifies eligibility, and works with the attending physician to manage symptoms and adjust the care plan." },
   { role: "Registered Nurses", desc: "Your primary clinical contact. RNs make regular home visits, manage medications and symptoms, educate caregivers, and are available 24/7 by phone." },
-  { role: "Hospice Aides", desc: "Provide personal care — bathing, grooming, and light household assistance — giving families a reliable extra set of hands." },
+  { role: "Hospice Aides", desc: "Provide personal care, bathing, grooming, and light household assistance, giving families a reliable extra set of hands." },
   { role: "Medical Social Workers", desc: "Help navigate practical and emotional challenges: family dynamics, advance directives, financial concerns, community resources, and discharge planning." },
-  { role: "Chaplains & Spiritual Care", desc: "Offer non-denominational spiritual support to patients and families of all backgrounds. Chaplains meet patients where they are — spiritually and emotionally." },
+  { role: "Chaplains & Spiritual Care", desc: "Offer non-denominational spiritual support to patients and families of all backgrounds. Chaplains meet patients where they are, spiritually and emotionally." },
   { role: "Bereavement Counselors", desc: "Grief doesn't end when the patient passes. Our bereavement team supports family members for up to 13 months following a loss." },
-  { role: "Volunteers", desc: "Trained hospice volunteers provide companionship, respite, and practical help — sitting with patients, running errands, and giving caregivers a break." },
+  { role: "Volunteers", desc: "Trained hospice volunteers provide companionship, respite, and practical help, sitting with patients, running errands, and giving caregivers a break." },
 ];
 
 export default function Page() {

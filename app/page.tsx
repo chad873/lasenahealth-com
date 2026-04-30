@@ -12,7 +12,7 @@ const audiences = [
     title: "Healthcare Professionals",
     href: "/professionals/refer-a-patient",
     icon: "🩺",
-    desc: "When curative treatment is no longer the goal, hospice gives your patients the comfort and expert symptom management they deserve — while giving you a trusted partner to coordinate their care.",
+    desc: "When curative treatment is no longer the goal, hospice gives your patients the comfort and expert symptom management they deserve, while giving you a trusted partner to coordinate their care.",
   },
   {
     title: "Join Our Team",
@@ -54,7 +54,7 @@ export default function Home() {
             Compassionate Care. Peaceful Moments.
           </h1>
           <p className="text-gray-200 text-lg max-w-xl mb-10 leading-relaxed">
-            Lasena Health brings expert hospice care into the comfort of home — supporting patients, families, and caregivers through every step of the journey.
+            Lasena Health brings expert hospice care into the comfort of home, supporting patients, families, and caregivers through every step of the journey.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link href="/hospice/what-is-hospice" className="bg-[#7A8066] text-white px-7 py-4 text-sm font-medium hover:bg-[#5e6350] transition-colors rounded">
@@ -71,7 +71,7 @@ export default function Home() {
       <section className="bg-[#f5f4f0] py-16 px-6 text-center">
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            At Lasena Health, we believe that the end of life deserves the same care and dignity as any other chapter. Our hospice team — nurses, physicians, social workers, chaplains, and aides — works alongside patients and families to provide comfort, manage symptoms, and honor the life being lived.
+            At Lasena Health, we believe that the end of life deserves the same care and dignity as any other chapter. Our hospice team, nurses, physicians, social workers, chaplains, and aides, works alongside patients and families to provide comfort, manage symptoms, and honor the life being lived.
           </p>
           <p className="text-gray-600 leading-relaxed">
             Hospice is not about giving up. It's about choosing quality of life. And we're here to help you do that, on your terms, in your home.
@@ -102,7 +102,7 @@ export default function Home() {
             <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Understanding Hospice</p>
             <h2 className="font-serif text-3xl font-bold text-gray-800 mb-5">Hospice is about living, not giving up.</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Hospice care focuses on comfort, dignity, and quality of life for people nearing the end of a serious illness. It's not about giving up hope — it's about shifting focus to what matters most: time with the people you love.
+              Hospice care focuses on comfort, dignity, and quality of life for people nearing the end of a serious illness. It's not about giving up hope, it's about shifting focus to what matters most: time with the people you love.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
               Most hospice patients qualify for the Medicare Hospice Benefit, which covers virtually all hospice services at no out-of-pocket cost. Our team will walk you through every option before you commit to anything.
@@ -184,7 +184,7 @@ export default function Home() {
       <section className="bg-gray-900 py-20 px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-serif text-3xl font-bold text-white mb-4">We're here when you need us.</h2>
-          <p className="text-gray-400 mb-2 text-lg">Call us anytime — 24 hours a day, 7 days a week.</p>
+          <p className="text-gray-400 mb-2 text-lg">Call us anytime, 24 hours a day, 7 days a week.</p>
           <p className="text-gray-500 text-sm mb-8">There's no pressure and no obligation. Just a real conversation with a compassionate person who wants to help.</p>
           <a href="tel:+18005551234" className="inline-block bg-[#7A8066] text-white px-10 py-4 text-lg font-semibold hover:bg-[#5e6350] transition-colors rounded">
             📞 (800) 555-1234

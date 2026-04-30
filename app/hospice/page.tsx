@@ -7,12 +7,12 @@ export default function Page() {
         <div className="max-w-4xl mx-auto">
           <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Lasena Health</p>
           <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Hospice Care</h1>
-          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">Everything you need to know about hospice — what it is, when to consider it, and how Lasena Health can help.</p>
+          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">Everything you need to know about hospice, what it is, when to consider it, and how Lasena Health can help.</p>
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-6 py-16">
         <div className="bg-yellow-50 border border-yellow-200 rounded p-6 mb-8 text-sm text-yellow-800">
-          📝 <strong>Copy placeholder</strong> — Lumen is writing the content for this page.
+          📝 <strong>Copy placeholder</strong>, Lumen is writing the content for this page.
         </div>
         <p className="text-gray-400 italic">Full page content coming soon.</p>
         <div className="mt-12 pt-8 border-t border-gray-100">

@@ -3,19 +3,19 @@ import Link from "next/link";
 const levels = [
   {
     name: "Routine Home Care",
-    desc: "The most common level. Our team visits the patient at home — or wherever they call home, including nursing facilities — providing skilled nursing, medication management, aide services, and more. Family caregivers receive education, support, and 24/7 phone access to our clinical team.",
+    desc: "The most common level. Our team visits the patient at home, or wherever they call home, including nursing facilities, providing skilled nursing, medication management, aide services, and more. Family caregivers receive education, support, and 24/7 phone access to our clinical team.",
   },
   {
     name: "Continuous Home Care",
-    desc: "When a patient's symptoms need intensive management during a short-term crisis, we can provide extended nursing care at home — keeping the patient in familiar surroundings rather than sending them to a hospital or facility.",
+    desc: "When a patient's symptoms need intensive management during a short-term crisis, we can provide extended nursing care at home, keeping the patient in familiar surroundings rather than sending them to a hospital or facility.",
   },
   {
     name: "General Inpatient Care",
-    desc: "For symptoms that cannot be managed at home — severe pain, uncontrolled nausea, or respiratory distress — we arrange inpatient care at a contracted facility. Our team remains involved in the patient's care throughout.",
+    desc: "For symptoms that cannot be managed at home, severe pain, uncontrolled nausea, or respiratory distress, we arrange inpatient care at a contracted facility. Our team remains involved in the patient's care throughout.",
   },
   {
     name: "Respite Care",
-    desc: "Caring for a seriously ill loved one is exhausting. Respite care gives family caregivers a short-term break — up to five consecutive days — while the patient receives care in an inpatient setting. It's a benefit covered by Medicare, and it's there for you to use.",
+    desc: "Caring for a seriously ill loved one is exhausting. Respite care gives family caregivers a short-term break, up to five consecutive days, while the patient receives care in an inpatient setting. It's a benefit covered by Medicare, and it's there for you to use.",
   },
 ];
 

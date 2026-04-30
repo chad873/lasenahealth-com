@@ -48,7 +48,7 @@ export default function Page() {
 
         <div className="bg-[#7A8066] text-white rounded p-8">
           <h2 className="font-serif text-2xl font-bold mb-3" style={{ color: "white" }}>What if I don't have insurance?</h2>
-          <p className="text-stone-200 leading-relaxed mb-4">We believe everyone deserves compassionate end-of-life care, regardless of ability to pay. Contact us to discuss your situation — we'll do everything we can to help.</p>
+          <p className="text-stone-200 leading-relaxed mb-4">We believe everyone deserves compassionate end-of-life care, regardless of ability to pay. Contact us to discuss your situation, we'll do everything we can to help.</p>
           <a href="tel:+18005551234" className="inline-block bg-white text-[#7A8066] px-5 py-2 text-sm font-semibold rounded hover:bg-stone-50 transition-colors">📞 (800) 555-1234</a>
         </div>
 

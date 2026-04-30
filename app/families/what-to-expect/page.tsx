@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const ongoing = [
-  "Regular nursing visits — frequency depends on the patient's needs, typically several times per week",
+  "Regular nursing visits, frequency depends on the patient's needs, typically several times per week",
   "Scheduled aide visits for personal care and light assistance",
   "Social worker and chaplain visits as needed",
   "24/7 phone access to our clinical team for questions, concerns, or emergencies",
@@ -22,7 +22,7 @@ export default function Page() {
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-10">
         <div>
           <h2 className="font-serif text-2xl font-bold text-gray-800 mb-4">The first days</h2>
-          <p className="text-gray-700 leading-relaxed">In the first days after enrolling, a lot happens. Our team will visit the home to assess your loved one's needs, set up medical equipment, deliver medications, and create a care plan. It can feel overwhelming at first — but our team will walk you through every step.</p>
+          <p className="text-gray-700 leading-relaxed">In the first days after enrolling, a lot happens. Our team will visit the home to assess your loved one's needs, set up medical equipment, deliver medications, and create a care plan. It can feel overwhelming at first, but our team will walk you through every step.</p>
         </div>
         <div>
           <h2 className="font-serif text-2xl font-bold text-gray-800 mb-4">What you can expect on an ongoing basis</h2>
