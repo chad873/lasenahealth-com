@@ -15,26 +15,18 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="space-y-8">
             <div>
-              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Phone (24/7)</p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700 mb-2">📝 Confirm phone number with Chad</div>
-              <a href="tel:+18005551234" className="text-[#7A8066] text-xl font-bold hover:underline">📞 (800) 555-1234</a>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Phone (24/7)</p>              <a href="tel:+18005551234" className="text-[#7A8066] text-xl font-bold hover:underline">📞 (800) 555-1234</a>
               <p className="text-gray-500 text-sm mt-1">Available 24 hours a day, 7 days a week</p>
             </div>
             <div>
-              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Email</p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700 mb-2">📝 Confirm contact email with Chad</div>
-              <a href="mailto:info@lasenahealth.com" className="text-[#7A8066] font-medium hover:underline">info@lasenahealth.com</a>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Email</p>              <a href="mailto:info@lasenahealth.com" className="text-[#7A8066] font-medium hover:underline">info@lasenahealth.com</a>
             </div>
             <div>
-              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Office Hours</p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700 mb-2">📝 Confirm office hours with Chad</div>
-              <p className="text-gray-700">Monday–Friday, [X] a.m. – [X] p.m.</p>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Office Hours</p>              <p className="text-gray-700">Monday–Friday, [X] a.m. – [X] p.m.</p>
               <p className="text-gray-500 text-sm">For after-hours clinical needs, our nursing team is available 24/7.</p>
             </div>
             <div>
-              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Address</p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700">📝 Confirm office address with Chad</div>
-            </div>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Address</p>            </div>
           </div>
 
           <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>

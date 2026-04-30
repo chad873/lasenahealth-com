@@ -44,9 +44,6 @@ export default function Page() {
 
         <div className="border-t border-gray-200 pt-10">
           <h2 className="font-serif text-2xl font-bold text-gray-800 mb-4">Open Positions</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded p-4 text-sm text-yellow-800 mb-6">
-            📝 Confirm current open roles and application method with Chad before publishing.
-          </div>
           <ul className="space-y-3 mb-8">
             {roles.map((r) => (
               <li key={r} className="border border-gray-200 rounded px-5 py-4 text-gray-700 font-medium">{r}</li>

@@ -11,11 +11,6 @@ export default function Page() {
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-8">
-
-        <div className="bg-yellow-50 border border-yellow-200 rounded p-5 text-sm text-yellow-800">
-          📝 <strong>Note:</strong> Founding story and Chad's personal background to be added here, confirm with Chad before publishing.
-        </div>
-
         <p className="text-gray-700 leading-relaxed text-lg">We are a hospice provider serving patients and families in our communities. Our team includes experienced nurses, physicians, social workers, chaplains, and aides, all of whom chose this work because they believe it matters.</p>
 
         <p className="text-gray-700 leading-relaxed">Our mission is straightforward: to deliver the highest quality compassionate care to every patient we serve, and to support the families who love them, from the first call through bereavement and beyond.</p>
