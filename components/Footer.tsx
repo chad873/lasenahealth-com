@@ -5,11 +5,9 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-400 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 pb-12 border-b border-gray-800">
         <div className="md:col-span-1">
-          <p className="font-serif font-bold text-white text-xl mb-3">
-            <span className="text-[#4caf87]">Lasena</span> Health
-          </p>
+          <img src="/lasena_white.png" alt="Lasena Health" className="h-10 w-auto mb-3" />
           <p className="text-sm leading-relaxed mb-4">Compassionate hospice care for patients, families, and the communities we serve.</p>
-          <a href="tel:+18005551234" className="text-[#4caf87] font-semibold text-sm hover:underline">📞 (800) 555-1234</a>
+          <a href="tel:+18005551234" className="text-[#A67C52] font-semibold text-sm hover:underline">📞 (800) 555-1234</a>
           <p className="text-xs text-gray-500 mt-1">Available 24 hours a day, 7 days a week</p>
         </div>
 
@@ -67,7 +65,7 @@ export default function Footer() {
           <div className="mt-8">
             <Link
               href="/professionals/refer-a-patient"
-              className="inline-block bg-[#2e7d5e] text-white text-sm px-5 py-3 hover:bg-[#245f49] transition-colors font-medium rounded"
+              className="inline-block bg-[#7A8066] text-white text-sm px-5 py-3 hover:bg-[#5e6350] transition-colors font-medium rounded"
             >
               Refer a Patient →
             </Link>

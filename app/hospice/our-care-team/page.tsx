@@ -13,9 +13,9 @@ const team = [
 export default function Page() {
   return (
     <div className="bg-white">
-      <div className="bg-[#f4f9f7] border-b border-green-100 py-16 px-6">
+      <div className="bg-[#f5f4f0] border-b border-stone-200 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#2e7d5e] text-xs uppercase tracking-widest mb-3 font-medium">Hospice Care</p>
+          <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Hospice Care</p>
           <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Our Care Team</h1>
           <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">Hospice is a team effort. Every Lasena Health patient is served by an interdisciplinary group of professionals, all working together around what the patient and family need.</p>
         </div>
@@ -24,13 +24,13 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-6">
           {team.map((t) => (
             <div key={t.role} className="border border-gray-200 rounded p-6">
-              <h2 className="font-serif font-bold text-[#2e7d5e] text-lg mb-3">{t.role}</h2>
+              <h2 className="font-serif font-bold text-[#7A8066] text-lg mb-3">{t.role}</h2>
               <p className="text-gray-600 text-sm leading-relaxed">{t.desc}</p>
             </div>
           ))}
         </div>
         <div className="mt-12 pt-8 border-t border-gray-100 flex flex-wrap gap-4">
-          <Link href="/hospice/paying-for-hospice" className="text-[#2e7d5e] text-sm font-medium hover:underline">Next: Paying for Hospice →</Link>
+          <Link href="/hospice/paying-for-hospice" className="text-[#7A8066] text-sm font-medium hover:underline">Next: Paying for Hospice →</Link>
           <Link href="/hospice/levels-of-care" className="text-gray-400 text-sm hover:underline ml-auto">← Levels of Care</Link>
         </div>
       </div>

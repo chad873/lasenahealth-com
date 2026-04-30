@@ -22,9 +22,9 @@ const levels = [
 export default function Page() {
   return (
     <div className="bg-white">
-      <div className="bg-[#f4f9f7] border-b border-green-100 py-16 px-6">
+      <div className="bg-[#f5f4f0] border-b border-stone-200 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#2e7d5e] text-xs uppercase tracking-widest mb-3 font-medium">Hospice Care</p>
+          <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Hospice Care</p>
           <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Levels of Hospice Care</h1>
           <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">Hospice care is provided at four levels, depending on the needs of the patient. Our team will always recommend the level of care that best fits your situation.</p>
         </div>
@@ -34,7 +34,7 @@ export default function Page() {
           {levels.map((l, i) => (
             <div key={l.name} className="border border-gray-200 rounded p-8">
               <div className="flex items-start gap-4">
-                <span className="bg-[#2e7d5e] text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">{i + 1}</span>
+                <span className="bg-[#7A8066] text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">{i + 1}</span>
                 <div>
                   <h2 className="font-serif text-xl font-bold text-gray-800 mb-3">{l.name}</h2>
                   <p className="text-gray-600 leading-relaxed">{l.desc}</p>
@@ -44,7 +44,7 @@ export default function Page() {
           ))}
         </div>
         <div className="mt-12 pt-8 border-t border-gray-100 flex flex-wrap gap-4">
-          <Link href="/hospice/our-care-team" className="text-[#2e7d5e] text-sm font-medium hover:underline">Next: Our Care Team →</Link>
+          <Link href="/hospice/our-care-team" className="text-[#7A8066] text-sm font-medium hover:underline">Next: Our Care Team →</Link>
           <Link href="/hospice/when-is-it-time" className="text-gray-400 text-sm hover:underline ml-auto">← When Is It Time?</Link>
         </div>
       </div>

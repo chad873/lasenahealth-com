@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
+:root {
+  --sage: #7A8066;
+  --brown: #A67C52;
+}
+
 @theme inline {
   --font-sans: var(--font-inter);
-  --font-serif: var(--font-lora);
+  --font-serif: var(--font-playfair);
 }
 
 body {
@@ -14,6 +19,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-lora), Georgia, serif;
+  font-family: var(--font-playfair), Georgia, serif;
   line-height: 1.25;
 }

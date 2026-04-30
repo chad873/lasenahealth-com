@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Page() {
   return (
     <div className="bg-white">
-      <div className="bg-[#f4f9f7] border-b border-green-100 py-16 px-6">
+      <div className="bg-[#f5f4f0] border-b border-stone-200 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#2e7d5e] text-xs uppercase tracking-widest mb-3 font-medium">Lasena Health</p>
+          <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Lasena Health</p>
           <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Hospice Care</h1>
           <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">Everything you need to know about hospice — what it is, when to consider it, and how Lasena Health can help.</p>
         </div>
@@ -16,7 +16,7 @@ export default function Page() {
         </div>
         <p className="text-gray-400 italic">Full page content coming soon.</p>
         <div className="mt-12 pt-8 border-t border-gray-100">
-          <Link href="/" className="text-[#2e7d5e] text-sm font-medium hover:underline">← Back to Home</Link>
+          <Link href="/" className="text-[#7A8066] text-sm font-medium hover:underline">← Back to Home</Link>
         </div>
       </div>
     </div>

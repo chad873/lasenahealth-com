@@ -38,9 +38,9 @@ const faqs = [
 export default function Page() {
   return (
     <div className="bg-white">
-      <div className="bg-[#f4f9f7] border-b border-green-100 py-16 px-6">
+      <div className="bg-[#f5f4f0] border-b border-stone-200 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#2e7d5e] text-xs uppercase tracking-widest mb-3 font-medium">Hospice Care</p>
+          <p className="text-[#7A8066] text-xs uppercase tracking-widest mb-3 font-medium">Hospice Care</p>
           <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Hospice FAQs</h1>
           <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">Answers to the questions families ask most often. Don't see yours? Call us — we're happy to talk through anything.</p>
         </div>
@@ -54,10 +54,10 @@ export default function Page() {
             </div>
           ))}
         </div>
-        <div className="mt-12 bg-[#f4f9f7] border border-green-200 rounded p-8 text-center">
+        <div className="mt-12 bg-[#f5f4f0] border border-stone-300 rounded p-8 text-center">
           <p className="font-serif font-bold text-gray-800 text-xl mb-2">Still have questions?</p>
           <p className="text-gray-600 mb-5">Call us anytime. There's no pressure and no obligation — just a real conversation.</p>
-          <a href="tel:+18005551234" className="inline-block bg-[#2e7d5e] text-white px-6 py-3 text-sm font-semibold rounded hover:bg-[#245f49] transition-colors">📞 (800) 555-1234</a>
+          <a href="tel:+18005551234" className="inline-block bg-[#7A8066] text-white px-6 py-3 text-sm font-semibold rounded hover:bg-[#5e6350] transition-colors">📞 (800) 555-1234</a>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-100">
           <Link href="/hospice" className="text-gray-400 text-sm hover:underline">← Back to Hospice Care</Link>

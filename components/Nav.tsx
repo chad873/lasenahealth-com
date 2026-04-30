@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const navItems = [
@@ -45,7 +46,7 @@ export default function Nav() {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
       {/* Top bar */}
-      <div className="bg-[#2e7d5e] text-white text-sm py-2 px-6">
+      <div className="bg-[#7A8066] text-white text-sm py-2 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <span>Compassionate care, available 24/7</span>
           <a href="tel:+18005551234" className="font-semibold hover:underline">📞 (800) 555-1234</a>
@@ -54,9 +55,8 @@ export default function Nav() {
 
       {/* Main nav */}
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="font-serif font-bold text-xl text-[#2e7d5e]">Lasena</span>
-          <span className="font-serif font-bold text-xl text-gray-700">Health</span>
+        <Link href="/">
+          <Image src="/lasena_horizontal.png" alt="Lasena Health" width={160} height={48} className="h-10 w-auto" />
         </Link>
 
         {/* Desktop */}
@@ -65,7 +65,7 @@ export default function Nav() {
             <div key={item.href} className="relative group">
               <Link
                 href={item.href}
-                className="px-4 py-2 text-sm text-gray-700 hover:text-[#2e7d5e] transition-colors font-medium flex items-center gap-1"
+                className="px-4 py-2 text-sm text-gray-700 hover:text-[#7A8066] transition-colors font-medium flex items-center gap-1"
               >
                 {item.label}
                 {item.children && <span className="text-xs text-gray-400">▾</span>}
@@ -76,7 +76,7 @@ export default function Nav() {
                     <Link
                       key={child.href}
                       href={child.href}
-                      className="block px-5 py-2 text-sm text-gray-600 hover:text-[#2e7d5e] hover:bg-green-50 transition-colors"
+                      className="block px-5 py-2 text-sm text-gray-600 hover:text-[#7A8066] hover:bg-stone-50 transition-colors"
                     >
                       {child.label}
                     </Link>
@@ -87,7 +87,7 @@ export default function Nav() {
           ))}
           <Link
             href="/professionals/refer-a-patient"
-            className="ml-4 bg-[#2e7d5e] text-white text-sm px-5 py-2 hover:bg-[#245f49] transition-colors font-medium rounded"
+            className="ml-4 bg-[#7A8066] text-white text-sm px-5 py-2 hover:bg-[#5e6350] transition-colors font-medium rounded"
           >
             Refer a Patient
           </Link>
@@ -110,7 +110,7 @@ export default function Nav() {
           {navItems.map((item) => (
             <div key={item.href}>
               <button
-                className="w-full text-left px-6 py-3 text-sm font-medium text-gray-700 hover:bg-green-50 flex justify-between"
+                className="w-full text-left px-6 py-3 text-sm font-medium text-gray-700 hover:bg-stone-50 flex justify-between"
                 onClick={() => setActiveDropdown(activeDropdown === item.href ? null : item.href)}
               >
                 {item.label}
@@ -122,7 +122,7 @@ export default function Nav() {
                     <Link
                       key={child.href}
                       href={child.href}
-                      className="block px-10 py-2 text-sm text-gray-600 hover:text-[#2e7d5e]"
+                      className="block px-10 py-2 text-sm text-gray-600 hover:text-[#7A8066]"
                       onClick={() => setOpen(false)}
                     >
                       {child.label}
@@ -135,7 +135,7 @@ export default function Nav() {
           <div className="px-6 py-4">
             <Link
               href="/professionals/refer-a-patient"
-              className="block text-center bg-[#2e7d5e] text-white text-sm px-5 py-3 font-medium rounded"
+              className="block text-center bg-[#7A8066] text-white text-sm px-5 py-3 font-medium rounded"
               onClick={() => setOpen(false)}
             >
               Refer a Patient
