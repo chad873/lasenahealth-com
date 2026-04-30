@@ -1,22 +1,80 @@
-import Link from "next/link";
+"use client";
 
 export default function Page() {
   return (
     <div className="bg-white">
       <div className="bg-[#f4f9f7] border-b border-green-100 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#2e7d5e] text-xs uppercase tracking-widest mb-3 font-medium">Lasena Health</p>
-          <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Contact Us</h1>
-          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">We're available 24 hours a day, 7 days a week. Reach out anytime.</p>
+          <p className="text-[#2e7d5e] text-xs uppercase tracking-widest mb-3 font-medium">Contact</p>
+          <h1 className="font-serif text-4xl font-bold text-gray-800 mb-4">Get in Touch</h1>
+          <p className="text-gray-600 text-lg max-w-2xl leading-relaxed">We know that reaching out about hospice isn't easy. There's no pressure and no obligation — just a real conversation with a compassionate person who wants to help.</p>
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-6 py-16">
-        <div className="bg-yellow-50 border border-yellow-200 rounded p-6 mb-8 text-sm text-yellow-800">
-          📝 <strong>Copy placeholder</strong> — Lumen is writing the content for this page.
-        </div>
-        <p className="text-gray-400 italic">Full page content coming soon.</p>
-        <div className="mt-12 pt-8 border-t border-gray-100">
-          <Link href="/" className="text-[#2e7d5e] text-sm font-medium hover:underline">← Back to Home</Link>
+
+        <div className="grid md:grid-cols-2 gap-12 mb-16">
+          <div className="space-y-8">
+            <div>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Phone (24/7)</p>
+              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700 mb-2">📝 Confirm phone number with Chad</div>
+              <a href="tel:+18005551234" className="text-[#2e7d5e] text-xl font-bold hover:underline">📞 (800) 555-1234</a>
+              <p className="text-gray-500 text-sm mt-1">Available 24 hours a day, 7 days a week</p>
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Email</p>
+              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700 mb-2">📝 Confirm contact email with Chad</div>
+              <a href="mailto:info@lasenahealth.com" className="text-[#2e7d5e] font-medium hover:underline">info@lasenahealth.com</a>
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Office Hours</p>
+              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700 mb-2">📝 Confirm office hours with Chad</div>
+              <p className="text-gray-700">Monday–Friday, [X] a.m. – [X] p.m.</p>
+              <p className="text-gray-500 text-sm">For after-hours clinical needs, our nursing team is available 24/7.</p>
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-widest text-gray-400 mb-2 font-medium">Address</p>
+              <div className="bg-yellow-50 border border-yellow-200 rounded p-3 text-xs text-yellow-700">📝 Confirm office address with Chad</div>
+            </div>
+          </div>
+
+          <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
+            <h2 className="font-serif font-bold text-xl text-gray-800 mb-4">Send a Message</h2>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                <input type="text" className="w-full border border-gray-300 px-4 py-3 text-sm rounded focus:outline-none focus:border-[#2e7d5e]" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                <input type="text" className="w-full border border-gray-300 px-4 py-3 text-sm rounded focus:outline-none focus:border-[#2e7d5e]" />
+              </div>
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+              <input type="email" className="w-full border border-gray-300 px-4 py-3 text-sm rounded focus:outline-none focus:border-[#2e7d5e]" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+              <input type="tel" className="w-full border border-gray-300 px-4 py-3 text-sm rounded focus:outline-none focus:border-[#2e7d5e]" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">How can we help?</label>
+              <select className="w-full border border-gray-300 px-4 py-3 text-sm rounded focus:outline-none focus:border-[#2e7d5e] bg-white">
+                <option value="">Select a topic...</option>
+                <option>I have questions about hospice</option>
+                <option>I'd like to refer a patient</option>
+                <option>I'm interested in a career</option>
+                <option>General inquiry</option>
+              </select>
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+              <textarea rows={4} className="w-full border border-gray-300 px-4 py-3 text-sm rounded focus:outline-none focus:border-[#2e7d5e]" placeholder="Tell us how we can help..." />
+            </div>
+            <button type="submit" className="w-full bg-[#2e7d5e] text-white py-4 text-sm font-semibold hover:bg-[#245f49] transition-colors rounded">
+              Send Message
+            </button>
+          </form>
         </div>
       </div>
     </div>
